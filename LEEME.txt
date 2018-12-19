@@ -1,0 +1,4 @@
+ALEJANDRO GARCÍA RICO	45927720D
+
+Para ejecutar el programa completo basta con ejecutar la orden:
+make run
