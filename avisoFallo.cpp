@@ -24,7 +24,7 @@ AvisoFallo::AvisoFallo(int id, string usuario_reportador, string producto,string
  }
     
 void AvisoFallo::FinalizarAviso(){
-   this->estado = false; 
+   this->estado = false;
 };
 void AvisoFallo::MostrarAviso(){
     cout<<"----------------------------------------------------------------------------"<<endl;
@@ -43,11 +43,7 @@ void AvisoFallo::MostrarAviso(){
     cout<<"- Reporte: "<<reporte<<endl;
     cout<<endl;cout<<endl;
 
-    if(comentarios.size()==0){
-         cout<<"               Todavía no existe ningún comentario en este reporte"<<endl;
-         cout<<"----------------------------------------------------------------------------"<<endl;
-         cout<<endl;
-    }
+  
     else{
         cout<<"                       Comentarios sobre este reporte"<<endl;
         cout<<"----------------------------------------------------------------------------"<<endl;
