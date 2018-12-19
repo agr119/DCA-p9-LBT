@@ -14,6 +14,6 @@ Comentario::Comentario(string usuario_comenta, string texto){
 }
 
  void Comentario::mostarComentario(){
-     cout<<"USUARIO : "<<usuario_comenta<<" FECHA: "<<fecha;
+     cout<<"USUARIO : "<<usuario_comenta<<"|  FECHA: "<<fecha;
      cout<<"COMENTARIO : "<<texto<<endl;
  }
