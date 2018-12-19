@@ -43,7 +43,13 @@ void AvisoFallo::MostrarAviso(){
     cout<<"- Reporte: "<<reporte<<endl;
     cout<<endl;cout<<endl;
     cout<<"----------------------------------------------------------------------------"<<endl;
-  
+
+    if(comentarios.size()==0){
+         cout<<"               Todavía no existe ningún comentario en este reporte"<<endl;
+         cout<<"----------------------------------------------------------------------------"<<endl;
+         cout<<endl;
+    }  
+
     else{
         cout<<"                       Comentarios sobre este reporte"<<endl;
         cout<<"----------------------------------------------------------------------------"<<endl;
