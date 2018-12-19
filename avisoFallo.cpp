@@ -42,7 +42,7 @@ void AvisoFallo::MostrarAviso(){
     }
     cout<<"- Reporte: "<<reporte<<endl;
     cout<<endl;cout<<endl;
-
+    cout<<"----------------------------------------------------------------------------"<<endl;
   
     else{
         cout<<"                       Comentarios sobre este reporte"<<endl;
@@ -52,5 +52,6 @@ void AvisoFallo::MostrarAviso(){
             comentarios[i].mostarComentario();
             cout<<endl;
         }
+     cout<<"----------------------------------------------------------------------------"<<endl;
     }    
 };
